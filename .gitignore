@@ -1,0 +1,34 @@
+# .gitignore for Rasa project
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ENV.bak/
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore PyCharm artifacts
+.idea/
+
+# Ignore Rasa model files
+models/*
+
+# Ignore data artifacts
+data/*.json
+data/*.md
+
+# Ignore all logfiles and tempfiles.
+*.log
+*.tmp
+
+# Ignore node modules for action server
+actions/node_modules/

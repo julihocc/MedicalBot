@@ -1,0 +1,1 @@
+{"py/object": "numpy.ndarray", "dtype": "<U16", "values": ["bot_challenge_es", "despedirse", "saludar"]}

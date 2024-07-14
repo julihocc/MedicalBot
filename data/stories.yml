@@ -9,6 +9,17 @@ stories:
   - intent: despedirse
   - action: utter_despedirse
 
+- story: Análsis de enfermedad
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: malestar
+  - action: utter_malestar
+  - intent: sintomas
+  - action: utter_sintomas
+  - intent: confirmar_sintomas
+  - action: utter_medicina
+
 - story: Decir 'Soy un bot' cuando el usuario desafía al bot
   steps:
   - intent: bot_challenge_es
@@ -18,4 +29,28 @@ stories:
   steps:
   - intent: despedirse
   - action: utter_despedirse
+
+- story: Preguntar por medicina
+  steps:
+  - intent: medicina
+  - action: utter_medicina
+
+- story: Preguntar por especialista
+  steps:
+  - intent: especialista
+  - action: utter_especialista
+
+- story: Preguntar por hospital
+  steps:
+  - intent: hospital
+  - action: utter_hospital  
+
+- story: Agradecer
+  steps:
+  - intent: agradecer
+  - action: utter_agradecer
+
+
+
+
 

@@ -48,3 +48,124 @@ nlu:
       - eres un asistente de texto
       - eres un asistente de conversación
       - eres un asistente de diálogo
+
+  - intent: malestar
+    examples: | 
+      - me siento mal
+      - me siento enfermo
+      - me siento enferma
+      - me siento malito
+      - me siento enfermito
+      - me siento malita
+      - me siento enfermita
+
+  - intent: sintomas
+    examples: |      
+      - me duele la [cabeza](sintomas)
+      - me duele la [garganta](sintomas)
+      - me duele el [estómago](sintomas)
+      - me duele el [oído](sintomas)
+      - me duele la [muela](sintomas)
+      - me duele la [espalda](sintomas)
+      - me duele el [cuerpo](sintomas)
+      - me duele el [pecho](sintomas)
+      - me duele el [brazo](sintomas)
+
+  - intent: confimar_sintomas
+    examples: |
+      - tengo [fiebre](enfermedad)
+      - tengo [gripe](enfermedad)
+      - tengo [resfriado](enfermedad)
+
+  - intent: medicina
+    examples: |
+      - ¿Qué medicina debo tomar si tengo [resfriado](enfermedad)?
+      - Estoy [resfriado](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [resfriado](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [gripe](enfermedad)?
+      - Estoy [gripe](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para la [gripe](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [fiebre](enfermedad)?
+      - Estoy [fiebre](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para la [fiebre](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [dolor de cabeza](enfermedad)?
+      - Tengo [dolor de cabeza](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [dolor de cabeza](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [dolor de estómago](enfermedad)?
+      - Tengo [dolor de estómago](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [dolor de estómago](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [dolor de garganta](enfermedad)?
+      - Tengo [dolor de garganta](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [dolor de garganta](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [dolor de oído](enfermedad)?
+      - Tengo [dolor de oído](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [dolor de oído](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [dolor de muelas](enfermedad)?
+      - Tengo [dolor de muelas](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [dolor de muelas](enfermedad)?
+      - ¿Qué medicina debo tomar si tengo [dolor de espalda](enfermedad)?
+      - Tengo [dolor de espalda](enfermedad), ¿qué medicina me recomiendas?
+      - ¿Qué medicina me recomiendas para el [dolor de espalda](enfermedad)?
+
+  - intent: especialista
+    examples: |
+      - ¿Qué especialista debo visitar si tengo [resfriado](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [resfriado](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [gripe](enfermedad)?
+      - ¿Qué especialista me recomiendas para la [gripe](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [fiebre](enfermedad)?
+      - ¿Qué especialista me recomiendas para la [fiebre](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [dolor de cabeza](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [dolor de cabeza](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [dolor de estómago](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [dolor de estómago](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [dolor de garganta](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [dolor de garganta](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [dolor de oído](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [dolor de oído](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [dolor de muelas](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [dolor de muelas](enfermedad)?
+      - ¿Qué especialista debo visitar si tengo [dolor de espalda](enfermedad)?
+      - ¿Qué especialista me recomiendas para el [dolor de espalda](enfermedad)?
+
+  - intent: hospital
+    examples: |
+      - ¿Qué hospital me recomiendas para el [resfriado](enfermedad)?
+      - ¿Qué hospital me recomiendas para la [gripe](enfermedad)?
+      - ¿Qué hospital me recomiendas para la [fiebre](enfermedad)?
+      - ¿Qué hospital me recomiendas para el [dolor de cabeza](enfermedad)?
+      - ¿Qué hospital me recomiendas para el [dolor de estómago](enfermedad)?
+      - ¿Qué hospital me recomiendas para el [dolor de garganta](enfermedad)?
+      - ¿Qué hospital me recomiendas para el [dolor de oído](enfermedad)?
+      - ¿Qué hospital me recomiendas para el [dolor de muelas](enfermedad)?
+      - ¿Qué hospital me recomiendas para el [dolor de espalda](enfermedad)?
+
+  - intent: agradecer
+    examples: | 
+      - gracias
+      - muchas gracias
+      - gracias por tu ayuda
+      - gracias por tu asistencia
+      - gracias por tu colaboración
+      - gracias por tu apoyo
+      - gracias por tu atención
+      - gracias por tu tiempo
+      - gracias por tu información
+      - gracias por tu respuesta
+      - gracias por tu consejo
+      - gracias por tu recomendación
+      - gracias por tu sugerencia
+      - gracias por tu orientación
+      - gracias por tu guía
+      - gracias por tu dirección
+      - gracias por tu ayuda
+      - gracias por tu asistencia
+      - gracias por tu colaboración
+      - gracias por tu apoyo
+      - gracias por tu atención
+      - gracias por tu tiempo
+      - gracias por tu información
+      - gracias por tu respuesta
+
+
+

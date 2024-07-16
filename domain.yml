@@ -2,8 +2,16 @@ version: "3.1"
 
 intents:
   - saludar
+  - malestar 
+  - sintomas
+  - confirmar_sintomas
   - despedirse
   - bot_challenge_es
+  - medicina
+  - especialista
+  - enfermedad
+  - hospital
+  - agradecer
 
 responses:
   utter_saludar:
@@ -12,6 +20,27 @@ responses:
     - text: "¡Hasta luego! Que tengas un buen día."
   utter_soy_un_bot:
     - text: "¡Sí! Soy un bot. ¿En qué puedo ayudarte?"
+
+  utter_malestar:
+    - text: "¿Qué síntomas tienes?"
+
+  utter_sintomas:
+    - text: "¿Tienes [fiebre](enfermedad), [gripe](enfermedad) o [resfriado](enfermedad)?"
+
+  utter_medicina:
+    - text: "Para el [resfriado](enfermedad) te recomiendo tomar paracetamol. Para la [gripe](enfermedad) te recomiendo tomar ibuprofeno. Para la [fiebre](enfermedad) te recomiendo tomar acetaminofén."
+  utter_especialista:
+    - text: "Para [resfriado](enfermedad) te recomiendo visitar a un médico general. Para [gripe](enfermedad) te recomiendo visitar a un médico general. Para [fiebre](enfermedad) te recomiendo visitar a un médico general."
+  utter_hospital:
+    - text: "¿En qué hospital te encuentras?"
+  utter_agradecer:
+    - text: "¡De nada! ¿En qué más puedo ayudarte?"
+
+  utter_ask_continue:
+    - text: "¿En qué más puedo ayudarte?"
+
+  utter_default:
+    - text: "Lo siento, no entendí. ¿Podrías repetirlo?"
 
 session_config:
   session_expiration_time: 60

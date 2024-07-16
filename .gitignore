@@ -34,3 +34,6 @@ data/*.md
 actions/node_modules/
 .rasa/**/*
 .rasa/cache/
+
+# Ignore cache
+.rasa/cache/

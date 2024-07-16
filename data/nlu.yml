@@ -71,7 +71,7 @@ nlu:
       - me duele el [pecho](sintomas)
       - me duele el [brazo](sintomas)
 
-  - intent: confimar_sintomas
+  - intent: confirmar_sintomas
     examples: |
       - tengo [fiebre](enfermedad)
       - tengo [gripe](enfermedad)

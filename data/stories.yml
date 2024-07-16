@@ -18,7 +18,7 @@ stories:
   - intent: sintomas
   - action: utter_sintomas
   - intent: confirmar_sintomas
-  - action: utter_medicina
+  - action: utter_confirmar_sintomas
 
 - story: Decir 'Soy un bot' cuando el usuario desafía al bot
   steps:

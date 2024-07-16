@@ -20,13 +20,12 @@ responses:
     - text: "¡Hasta luego! Que tengas un buen día."
   utter_soy_un_bot:
     - text: "¡Sí! Soy un bot. ¿En qué puedo ayudarte?"
-
   utter_malestar:
     - text: "¿Qué síntomas tienes?"
-
   utter_sintomas:
-    - text: "¿Tienes [fiebre](enfermedad), [gripe](enfermedad) o [resfriado](enfermedad)?"
-
+    - text: "¿Tienes fiebre, gripe o resfriado?"
+  utter_confirmar_sintomas:
+    - text: "¿Cuál es tu temperatura corporal?"
   utter_medicina:
     - text: "Para el [resfriado](enfermedad) te recomiendo tomar paracetamol. Para la [gripe](enfermedad) te recomiendo tomar ibuprofeno. Para la [fiebre](enfermedad) te recomiendo tomar acetaminofén."
   utter_especialista:
@@ -35,7 +34,6 @@ responses:
     - text: "¿En qué hospital te encuentras?"
   utter_agradecer:
     - text: "¡De nada! ¿En qué más puedo ayudarte?"
-
   utter_ask_continue:
     - text: "¿En qué más puedo ayudarte?"
 

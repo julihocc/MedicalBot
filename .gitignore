@@ -32,6 +32,8 @@ data/*.md
 
 # Ignore node modules for action server
 actions/node_modules/
+.rasa/**/*
+.rasa/cache/
 
 # Ignore cache
 .rasa/cache/
